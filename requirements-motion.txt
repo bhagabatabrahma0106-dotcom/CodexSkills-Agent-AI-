@@ -1,0 +1,5 @@
+# Optional runtime for both bundled motion exporters (Python 3.11+).
+Pillow==12.3.0
+numpy==2.3.5
+imageio==2.37.2
+imageio-ffmpeg==0.6.0

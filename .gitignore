@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Private client work
+/clients/
+/client-*/
+/test-*/
+/outputs/
+/generated_images/
+/examples/
+
+# Generated media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+*.webp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local cloud installation and Python runtime
+/.agents/skills/
+/.venv/
+__pycache__/
+*.pyc
